@@ -1,0 +1,18 @@
+From: 2 To: 3  Distance: 10 Km   Info: House 2 to House 3
+From: 3 To: 4  Distance: 6 Km   Info: House 3 to House 4
+From: 4 To: 1  Distance: 3 Km   Info: House 4 to House 1
+
+
+From: 0 To: 1  Distance: 6 Km   Info: from tank to house 1
+From: 1 To: 2  Distance: 5 Km   Info: from house 1 to house 2
+From: 2 To: 3  Distance: 4 Km   Info: from house 2 to house 3
+From: 0 To: 3  Distance: 2 Km   Info: from tank to house 3
+From: 3 To: 4  Distance: 10 Km   Info: from house 3 to house 4
+From: 0 To: 1  Distance: 4 Km   Info: 0 to 1
+From: 0 To: 1  Distance: 5 Km   Info: 0 to 1 house
+From: 0 To: 1  Distance: 11 Km   Info: 1
+From: 0 To: 1  Distance: 1 Km   Info: 1
+From: 0 To: 1  Distance: 11 Km   Info: 1
+From: 1 To: 2  Distance: 2 Km   Info: 2
+From: 1 To: 2  Distance: 4 Km   Info: 4
+From: 0 To: 1  Distance: 4 Km   Info: 5
