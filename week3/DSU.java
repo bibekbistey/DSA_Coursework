@@ -78,6 +78,7 @@ static void MST(int houses[][], int n)
 	// Traverse each coordinate
 	for(int i = 0; i < n; i++)
 	{
+		// nested loop
 		for(int j = i + 1; j < n; j++)
 		{
 			
