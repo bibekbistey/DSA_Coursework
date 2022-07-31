@@ -21,7 +21,7 @@ public class kth {
         //function to calculate the number of container required
         static void forCurrentVillage(int array[]){
 
-        //declaring variables
+            //declaring variables
             int a;
             int total_container = 0;
             int previous_value = 0;

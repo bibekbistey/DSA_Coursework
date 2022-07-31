@@ -18,20 +18,27 @@ class PathFinder {
     int processor() {
         // initializing
         int keys = keysNumberFinder();
+        // initilization of a variable to store total travelled
         int totalTravelled = 0;
+        // initilization of a variable to store keysfound
         int keysFound = 0;
+        // initilization of a variable 
         boolean run = true;
+        // initilization of a variable 
         int x = 0;
+        // initilization of a variable to store travelled row
         int travelledRow = 0;
         int adder = 1;
+        // creating new array foundk
         char[] foundK = new char[2];
         // while loop to check and compare travelled rows and key found
         while (run) {
             // comparing statements either it is equal to "#"
             if (input[travelledRow].charAt(x + adder) != '#') {
-
+                // check if travellrow is equals to '*'
                 if (input[travelledRow].charAt(x + adder) == '*') {
                     x += adder;
+                    // increases totaltravelled
                     totalTravelled++;
                     continue;
                 } else {
@@ -53,7 +60,7 @@ class PathFinder {
                         boolean yes = false;
                         // traverse cordinate upto the length of array[] a=foundk
                         for (int l = 0; l < foundK.length; l++) {
-                            //comparing array found[k] with travelled row
+                            //comparearray found[k] with travelled row if yes return true.
                             if (foundK[l] == input[travelledRow].toLowerCase().charAt(x + adder)) {
 
                                 yes = true;
@@ -79,8 +86,9 @@ class PathFinder {
             if (input[travelledRow + 1].charAt(x) != '#') {
                 // comparing if it is equal to '*'
                 if (input[travelledRow + 1].charAt(x) == '*') {
-
+                    // increases travelled row
                     travelledRow += 1;
+                    // increases totalTravelled
                     totalTravelled++;
                     continue;
                 } else {

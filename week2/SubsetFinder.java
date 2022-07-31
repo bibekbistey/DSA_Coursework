@@ -2,7 +2,7 @@ package week2;
 // week 2
 
 class SubsetFinder {
-    // declaring 
+    // declaring variables  
     int realArrLen;
     int[] a;
     // constructor

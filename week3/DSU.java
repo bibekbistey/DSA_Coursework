@@ -6,7 +6,8 @@ import java.util.*;
 
 // Class for DSU implementation
 class DSU{
-	
+
+
 int parent[];
 int rank[];
 

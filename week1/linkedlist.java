@@ -2,7 +2,7 @@ package week1;
 import java.util.*;
 
 public class linkedlist {
-    //declaring variables
+    //declaring variables to store totalsize
     Queue<Integer> list;
     int totalSize;
 
@@ -50,7 +50,7 @@ public class linkedlist {
         for (int i = 0; i < totalSize; i++) {
             returner[i] = list.remove();
         }
-
+        // return value  of that paticular array
         return returner;
 
     }
